@@ -55,9 +55,9 @@ _You can interact with the report [here](https://app.powerbi.com/links/JWdQwjmpO
 
 The dataset was firstly imported to my jupyter notebook using [Visual Studio Code editor](https://code.visualstudio.com/Download).
 
-The dataset had no **churn** column. 
+Initially, the dataset had no **churn** column. 
 
-I was able to predict the **churn** column using some Python syntax importing Pandas and Numpy.
+But I was able to predict the **churn** column using some Python syntax by importing Pandas and Numpy.
 
 ![](https://github.com/oluwagbemiga01/Bank-Churn-Report/blob/main/churn%20prediction.jpg)
 
@@ -99,12 +99,56 @@ This led me to exporting the csv file to Power Query in Power BI
 
 ### Questions For Analysis
 
-- Which customer demographics are most likely to churn
-- What are the key factors contributing to customer churn
-- How does product engagement affect churn
-- Are there common patterns among customers who churn across multiple products
-- What are the geographical trends of churn
-- What is the lifetime value of customers who churn compared to those who stay
-- What retention strategies can reduce churn for each financial product
-- How does product ownership impact the likelihood of churn
-- What is the effect of customer engagement with digital channels
+1. Which customer demographics are most likely to churn (age, income, education level)
+2. How does product engagement affect churn
+3. Are there common patterns among customers who churn across multiple products
+4. What are the geographical trends of churn
+5. How does product ownership impact the likelihood of churn
+
+
+---
+
+
+**DATA INSIGHTS**
+
+
+Following the exploratory data analysis of the customer churn data, the following insights were gotten:
+
+1. **CUSTOMER DEMOGRAPHICS**
+
+
+**Age**
+
+Looking at the age range in respect to churn rate
+
+
+![](https://github.com/oluwagbemiga01/Bank-Churn-Report/blob/main/churn%20rate%20by%20age%20groups.jpg) 
+
+
+- Customers within the age range of 25 and below have the highest churn rate of 64.5%
+- Customers within the age range of 26-30 have the least churn rate of 54.8%
+- While other age range (31-35, 36-40, 41-50, 61-70) have a churn rate ranging between 57.0% to 58.9%
+
+
+**Income**
+
+Let us look at the annual income of the customers in relation to the churn rate
+
+
+![](https://github.com/oluwagbemiga01/Bank-Churn-Report/blob/main/Churn%20rate%20to%20annual%20income.jpg)
+
+
+- Customers who earn within 0$ to 100$ annually have the highest churn rate.
+- While customers who earn above 100$ to 200$ and above have the lowest churn rate.
+
+
+**Education Level**
+
+
+Looking at the **education level** from the customer dataset
+
+
+![](https://github.com/oluwagbemiga01/Bank-Churn-Report/blob/main/churn%20rate%20by%20education.jpg)
+
+
+- This is showing us that **Graduates** and **Professionals** have less churn rate than **Undergraduates**
