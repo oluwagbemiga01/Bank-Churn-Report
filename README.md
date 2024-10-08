@@ -100,9 +100,7 @@ This led me to exporting the csv file to Power Query in Power BI
 ### Questions For Analysis
 
 1. Which customer demographics are most likely to churn (age, income, education level)
-2. How does product engagement affect churn
-3. Are there common patterns among customers who churn across multiple products
-4. What are the geographical trends of churn
+2. Are there common patterns among customers who churn across multiple products
 5. How does product ownership impact the likelihood of churn
 
 
@@ -114,7 +112,7 @@ This led me to exporting the csv file to Power Query in Power BI
 
 Following the exploratory data analysis of the customer churn data, the following insights were gotten:
 
-1. **CUSTOMER DEMOGRAPHICS**
+**CUSTOMER DEMOGRAPHICS**
 
 
 **Age**
@@ -152,3 +150,5 @@ Looking at the **education level** from the customer dataset
 
 
 - This is showing us that **Graduates** and **Professionals** have less churn rate than **Undergraduates**
+
+
